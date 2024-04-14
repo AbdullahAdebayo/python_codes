@@ -1,3 +1,3 @@
 import pandas as pd
-dm = pd.read_csv("filename_csv")
-print(dm)
+dm = pd.read_csv("credit_records.csv")
+print(dm.info())
